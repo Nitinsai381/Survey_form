@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0269d8;
+}
+h1{
+text-align: center;
+color: #fff;
+}
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 50px #f4f5f6;
+}
+.row{
+    display: block;
+}
+.col{
+    width: 50%;
+    display: inline-block;
+    
+}
+.col2 label{
+   margin-left: 1rem;
+}
+.col2 input[type="text"]{
+    margin-left: 1rem;
+}
+.col2 select{
+    margin-left: 1rem;
+}
+.col2 input[type="tel"]{
+margin-left: 1rem;
+}
+.date{
+    margin-top: 4px;
+    width: 92%;
+    height: 2rem;
+    font-size: 1rem;
+}
+.country{
+    width: 94%;
+}
+label {
+    display: block;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+    width: fit-content;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 85%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    border: 1px solid #252424;
+    border-radius: 5px;
+}
+.gender{
+    display: inline-block;
+    font-size: 0.9rem;
+    margin-right: 3rem;
+    font-weight: 500;
+}
+input[type="checkbox"] {
+    margin-right: 5px;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1rem 2rem 1rem 2rem;
+}
+.buttons{
+text-align: center;
+}
+#popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+#popup-content {
+    background-color: #fff;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+p{
+    font-weight: 600;
+}
+p span{
+    font-weight: 500;
+}
