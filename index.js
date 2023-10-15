@@ -3,7 +3,7 @@ function submitForm() {
     const lastName = document.getElementById('lastName').value;
     const dob = document.getElementById('dob').value;
     const country = document.getElementById('country').value;
-    const gender = [...document.querySelectorAll('input[type="checkbox"]:checked')].map(checkbox => checkbox.nextElementSibling.textContent).join(', ');
+    const gender = [...document.querySelectorAll('input[type="radio"]:checked')].map(checkbox => checkbox.nextElementSibling.textContent).join(', ');
     const profession = document.getElementById('profession').value;
     const email = document.getElementById('email').value;
     const mobile = document.getElementById('mobile').value;
@@ -18,6 +18,9 @@ function submitForm() {
         document.getElementById('popupEmail').textContent = email;
         document.getElementById('popupMobile').textContent = mobile;
         document.getElementById('popup').style.display = 'block';
+    }
+    else{
+        alert("Please make sure you entered all details.")
     }
 }
 
