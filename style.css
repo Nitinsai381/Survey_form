@@ -13,7 +13,7 @@ form {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 50px #f4f5f6;
+    box-shadow: 5px 5px 5px 5px #0e0f10;
 }
 .row{
     display: block;
@@ -40,6 +40,12 @@ margin-left: 1rem;
     width: 92%;
     height: 2rem;
     font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #252424;
+}
+.date:hover{
+    border:1px solid #000000;
+    box-shadow: 1px 1px 1px 1px #000000;
 }
 .country{
     width: 94%;
@@ -63,6 +69,23 @@ select {
     margin-bottom: 1rem;
     border: 1px solid #252424;
     border-radius: 5px;
+    
+}
+input[type="text"]:hover{
+    border:1px solid #000000;
+    box-shadow: 1px 1px 1px 1px #000000;
+}
+input[type="email"]:hover{
+    border:1px solid #000000;
+    box-shadow: 1px 1px 1px 1px #000000;
+}
+input[type="tel"]:hover{
+    border:1px solid #000000;
+    box-shadow: 1px 1px 1px 1px #000000;
+}
+select:hover{
+    border:1px solid #000000;
+    box-shadow: 1px 1px 1px 1px #000000;
 }
 .gender{
     display: inline-block;
@@ -76,13 +99,16 @@ input[type="checkbox"] {
 }
 
 button {
-    background-color: #007bff;
+    background-color:  #0e0f10;;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin: 1rem 2rem 1rem 2rem;
+}
+button:hover{
+    background-color: #007bff
 }
 .buttons{
 text-align: center;
